@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Gemunu Libre";
+    src: url('./fonts/Gemunu-Libre/GemunuLibre-Regular.ttf') format('TrueType');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.travel-form {
+    max-width: 500px;
+}
+
+.display-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.font {
+    font-size: 30px;
+    font-family: 'Gemunu Libre';
+}
+
+.colored {
+    color: cadetblue;
+}
+
+.marg-bottom {
+    margin-bottom: 20px;
+}
+
+.check-item {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.button-scheme {
+    background-color: cadetblue;
+    color: azure;
+    padding: 10px 0;
+}

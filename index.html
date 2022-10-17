@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset class="travel-form display-options font">
+        <legend class="header marg-bottom">Travel reservation form</legend>
+        <h4 class="marg-bottom">*denotes mandotory</h4>
+        <label for="name" class="colored">Full name*:</label>
+        <input
+          type="text"
+          placeholder="FirstName LastName"
+          id="name"
+          class="marg-bottom font"
+        />
+        <label for="email" class="colored">Email address*:</label>
+        <input
+          type="email"
+          placeholder="EMAIL_ADDRESS"
+          id="email"
+          class="marg-bottom font"
+        />
+        <label for="tour-pack" class="colored">Select Tour Package*:</label>
+        <select name="tour" id="tour-pack" class="marg-bottom font">
+          <option value="Goa">Goa</option>
+          <option value="Bali">Bali</option>
+          <option value="Maldives">Maldives</option>
+          <option value="Thailand">Thailand</option>
+          <option value="Egypt">Egypt</option>
+        </select>
+        <label for="date" class="colored">Arrival date*:</label>
+        <input type="date" id="date" class="marg-bottom font" />
+        <label for="num-persons" class="colored">Number of persons*:</label>
+        <input type="text" id="num-persons" class="marg-bottom font" />
+        <fieldset class="display-options marg-bottom">
+          <legend class="colored">Wnat would you want to avail?*</legend>
+          <label
+            ><input
+              type="checkbox"
+              name="what-avail?"
+              class="check-item"
+            />Boarding</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              name="what-avail?"
+              class="check-item"
+            />Fooding</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              name="what-avail?"
+              class="check-item"
+            />Sight seeing</label
+          >
+        </fieldset>
+        <label for="discount" class="colored">Discount Coupon code:</label>
+        <input type="text" id="discount" class="marg-bottom font" />
+        <p class="colored">Terms and conditions*</p>
+        <label
+          ><input
+            type="radio"
+            value="agree"
+            name="is-agree"
+            class="check-item"
+          />I agree</label
+        >
+        <label
+          ><input
+            type="radio"
+            value="disagree"
+            name="is-agree"
+            class="check-item marg-bottom"
+          />I disagree</label
+        >
+        <button type="submit" class="font button-scheme">
+          Complete and conditions
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>
